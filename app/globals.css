@@ -298,11 +298,16 @@ main {
   bottom: 22px;
   width: 300px;
   padding: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
-  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
+  background:
+    linear-gradient(135deg, rgba(18, 37, 32, 0.97), rgba(31, 57, 50, 0.94)),
+    rgba(18, 37, 32, 0.96);
+  color: #fff;
+  backdrop-filter: blur(10px);
+  box-shadow:
+    0 24px 70px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .ops-head {
@@ -310,7 +315,7 @@ main {
   align-items: center;
   gap: 8px;
   margin-bottom: 14px;
-  color: rgba(247, 244, 233, 0.72);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -330,8 +335,12 @@ main {
   justify-content: space-between;
   gap: 12px;
   padding: 13px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
   font-size: 14px;
+}
+
+.ops-row strong {
+  color: rgba(255, 255, 255, 0.94);
 }
 
 .ops-row span {
@@ -350,7 +359,8 @@ main {
   height: 92px;
   margin-top: 12px;
   padding: 10px;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(5, 19, 16, 0.42);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 8px;
 }
 
@@ -1480,7 +1490,7 @@ footer {
   .hero-ops {
     width: calc(100vw - 32px);
     max-width: calc(100vw - 32px);
-    min-height: 720px;
+    min-height: 850px;
   }
 
   .phone {
@@ -1493,7 +1503,8 @@ footer {
   .ops-card {
     left: 16px;
     right: auto;
-    bottom: 0;
+    top: 585px;
+    bottom: auto;
     width: calc(100vw - 64px);
     transform: none;
   }
