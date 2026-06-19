@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+dist
+.env*.local
+*.tsbuildinfo
+desktop.png
+mobile.png
+case-map.png
+case-expanded.png
