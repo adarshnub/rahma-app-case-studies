@@ -1073,6 +1073,41 @@ export default function HomePage() {
         );
       })}
 
+      <section className="future-readiness" aria-labelledby="future-readiness-title">
+        <div className="future-readiness-label">
+          <Activity size={18} />
+          Beyond the two case studies
+        </div>
+        <h2 id="future-readiness-title">
+          A predictive intelligence architecture for future scenarios.
+        </h2>
+        <p>
+          The Dubai flood and Middle East conflict case studies illustrate two different but
+          connected applications of Rahma: protecting vulnerable residents during a sudden local
+          disruption and sustaining continuity of care during a prolonged regional emergency. The
+          same data foundation can support a much wider range of predictive scenarios, including
+          extreme heat, power failure, disease outbreaks, major fires, hazardous air-quality
+          events, infrastructure disruption, or any future crisis that places elderly, disabled,
+          and medically dependent people at disproportionate risk. Through secure current-source
+          data ingestion and normalization, Rahma&apos;s consented care signals, geospatial context,
+          medicine and equipment dependencies, caregiver availability, wearable observations, and
+          emergency-response status can be transformed into predictive data and combined with
+          authoritative weather, infrastructure, public-health, and incident feeds. This
+          multimodal data-fusion layer can enable spatiotemporal risk modelling, dynamic
+          vulnerability scoring, early-warning thresholds, demand forecasting, and scenario
+          simulation across shelters, accessible transport, specialist clinical teams, medicines,
+          and critical equipment. Decision-makers can then use risk heatmaps, projected demand
+          curves, resource-optimization models, and confidence-scored alerts to identify emerging
+          concentrations of need, evaluate alternative response strategies, and direct limited
+          capacity toward the people and locations where it will deliver the greatest protective
+          effect. In this role, Rahma becomes more than an emergency-response application: it
+          provides an interoperable, evidence-led decision-intelligence layer that supports
+          anticipatory planning and accountable resource orchestration, while preserving privacy,
+          explainability, clinical judgment, and human-in-the-loop governance for every
+          consequential decision.
+        </p>
+      </section>
+
       <section className="governance">
         <div>
           <div className="kicker">
