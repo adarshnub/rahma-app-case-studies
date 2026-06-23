@@ -1088,23 +1088,34 @@ export default function HomePage() {
           same data foundation can support a much wider range of predictive scenarios, including
           extreme heat, power failure, disease outbreaks, major fires, hazardous air-quality
           events, infrastructure disruption, or any future crisis that places elderly, disabled,
-          and medically dependent people at disproportionate risk. Through secure current-source
-          data ingestion and normalization, Rahma&apos;s consented care signals, geospatial context,
-          medicine and equipment dependencies, caregiver availability, wearable observations, and
-          emergency-response status can be transformed into predictive data and combined with
-          authoritative weather, infrastructure, public-health, and incident feeds. This
-          multimodal data-fusion layer can enable spatiotemporal risk modelling, dynamic
-          vulnerability scoring, early-warning thresholds, demand forecasting, and scenario
-          simulation across shelters, accessible transport, specialist clinical teams, medicines,
-          and critical equipment. Decision-makers can then use risk heatmaps, projected demand
-          curves, resource-optimization models, and confidence-scored alerts to identify emerging
-          concentrations of need, evaluate alternative response strategies, and direct limited
-          capacity toward the people and locations where it will deliver the greatest protective
-          effect. In this role, Rahma becomes more than an emergency-response application: it
-          provides an interoperable, evidence-led decision-intelligence layer that supports
-          anticipatory planning and accountable resource orchestration, while preserving privacy,
-          explainability, clinical judgment, and human-in-the-loop governance for every
-          consequential decision.
+          and medically dependent people at disproportionate risk. At the technical layer, secure
+          APIs and event-stream ingestion could consolidate Rahma&apos;s consented SOS events,
+          wearable telemetry, missed check-ins, medicine schedules, assistive-device dependency,
+          mobility requirements, caregiver reachability, dispatch status, and geospatial context.
+          A governed processing pipeline would validate schemas, remove duplicate events,
+          synchronize timestamps, geocode locations, pseudonymize identities, and calculate
+          data-quality and freshness scores before information enters the analytical environment.
+          Predictive features derived from this current-source data could then be enriched with
+          authoritative weather forecasts, flood-depth models, road accessibility, utility status,
+          hospital capacity, public-health surveillance, and verified incident feeds through a
+          multimodal data-fusion layer. Time-series forecasting, spatiotemporal clustering,
+          probabilistic risk models, and anomaly detection could estimate deterioration risk,
+          medicine depletion, service interruption, evacuation demand, and the likely geographic
+          concentration of high-support residents over defined forecast horizons. These outputs
+          could feed dynamic vulnerability scores, confidence-bounded early-warning alerts,
+          scenario simulations, and GIS-based risk heatmaps. A constraint-aware optimization
+          engine could subsequently test resource-allocation strategies against travel time,
+          shelter capacity, accessibility requirements, clinical priority, stock availability, and
+          responder capacity, producing ranked deployment options rather than an unqualified
+          automated decision. Standards-based interoperability, including FHIR-compatible health
+          interfaces and secure geospatial APIs, would allow authorized hospitals, command
+          centres, shelters, and logistics partners to consume only the minimum information needed
+          for their operational role. Model back-testing, calibration monitoring, drift detection,
+          role-based access control, encryption, immutable audit logs, and explicit retention rules
+          would provide the governance required for reliable use. In this architecture, Rahma
+          becomes an evidence-led decision-intelligence layer for anticipatory planning and
+          accountable resource orchestration, while preserving privacy, explainability, clinical
+          judgment, and human-in-the-loop authorization for every consequential action.
         </p>
       </section>
 
